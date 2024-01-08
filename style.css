@@ -1,0 +1,50 @@
+/*** General ***/
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --main-color: #ffffff;
+  --main-bg-color: #f6f6f6;
+  --loc-bg-color: #eaeaea;
+  --buttons-bg-maincolor: #FF79DA;
+  --buttons-bg-secondcolor: #9356DC;
+  --selection-bg-color: #99E2D0;
+  --footer-bg-color: #353535;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+
+/*** Header ***/
+header {
+    background-color: var(--main-color);
+    
+    height: 63px;
+    width: 100%;
+    
+    }
+
+.logo {
+    font-family: "Shrikhand", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.location {
+    background-color: var(--loc-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-icon {
+    margin: 0 17px 0 0;
+}
+
