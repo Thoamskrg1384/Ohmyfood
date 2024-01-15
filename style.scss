@@ -33,19 +33,22 @@
   
     margin: 0;
     padding: 14px 89px 13px 89px;
+
+    &__logo {
+      font-family: "Shrikhand", sans-serif;
+      font-size: 30px;
+    
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    
+      padding: 0 19px 0 16px;
+      margin: 0;
+    }
+
   }
   
-  .header__logo {
-    font-family: "Shrikhand", sans-serif;
-    font-size: 30px;
   
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  
-    padding: 0 19px 0 16px;
-    margin: 0;
-  }
   
   /*** Localisation ***/
   .location {
@@ -87,7 +90,7 @@
       text-align: center;
   }
   
-  .cta {
+  .btn {
    width: calc(100% - 82px - 75px);
    margin: 0 75px 57px 82px;
    border-radius: 25px;
