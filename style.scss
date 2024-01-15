@@ -1,0 +1,97 @@
+/*** General ***/
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  :root {
+    $main-color: #ffffff;
+    $main-bg-color: #f6f6f6;
+    $loc-bg-color: #eaeaea;
+    $buttons-bg-maincolor: #ff79da;
+    $buttons-bg-secondcolor: #9356dc;
+    $selection-bg-color: #99e2d0;
+    $footer-bg-color: #353535;
+  }
+  
+  .fa-solid--grey {
+    color: $footer-bg-color;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /*** Header ***/
+  .header__ohmyfood {
+    background-color: $main-color;
+  
+    height: 63px;
+    width: 100%;
+  
+    margin: 0;
+    padding: 14px 89px 13px 89px;
+  }
+  
+  .header__logo {
+    font-family: "Shrikhand", sans-serif;
+    font-size: 30px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  
+    padding: 0 19px 0 16px;
+    margin: 0;
+  }
+  
+  /*** Localisation ***/
+  .location {
+    background-color: $loc-bg-color;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+  
+    font-size: 16px;
+  }
+  
+  .location__icon {
+    margin: 0 17px 0 0;
+  }
+  
+  /*** Index ***/
+  
+  .index {
+    background-color: $main-bg-color;
+    
+    height: 287px;
+  
+    .index__title {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+    
+      margin: 0;
+      padding: 39px 58px 0 42px;
+    }
+  }
+  
+  .index__text {
+      margin: 0;
+      padding: 0 26px 27px 34px;
+      text-align: center;
+  }
+  
+  .cta {
+   width: calc(100% - 82px - 75px);
+   margin: 0 75px 57px 82px;
+   border-radius: 25px;
+   height: 50px;
+   background: linear-gradient($buttons-bg-maincolor, $buttons-bg-secondcolor);
+  }
+  
