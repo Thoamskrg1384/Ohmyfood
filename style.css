@@ -5,17 +5,26 @@
 }
 
 :root {
-  --main-color: #ffffff;
+  --white-bg-color: #ffffff;
   --main-bg-color: #f6f6f6;
   --loc-bg-color: #eaeaea;
   --buttons-bg-maincolor: #ff79da;
   --buttons-bg-secondcolor: #9356dc;
-  --selection-bg-color: #99e2d0;
-  --footer-bg-color: #353535;
+  --green-bg-color: #99e2d0;
+  --darkgrey-bg-color: #353535;
+  --index-color-icons: #7e7e7e;
+}
+
+.fa-solid--darkgrey {
+  color: var(--darkgrey-bg-color);
 }
 
 .fa-solid--grey {
-  color: var(--footer-bg-color);
+  color: var(--index-color-icons);
+}
+
+.fa-solid--purple {
+color: var(--buttons-bg-secondcolor);
 }
 
 body {
@@ -25,26 +34,27 @@ body {
 }
 
 /*** Header ***/
-.header__ohmyfood {
-  background-color: var(--main-color);
+.header__index {
+  background-color: var(--white-bg-color);
 
-  height: 63px;
   width: 100%;
 
   margin: 0;
-  padding: 14px 89px 13px 89px;
 }
 
 .header__logo {
   font-family: "Shrikhand", sans-serif;
   font-size: 30px;
+  font-style: italic;
+  line-height: 36px;
 
   display: flex;
   justify-content: center;
   align-items: flex-start;
 
-  padding: 0 19px 0 16px;
+  padding: 14px 89px 13px 89px;
   margin: 0;
+  box-shadow: 0px 2px 4px 0px #00000026;
 }
 
 /*** Localisation ***/
@@ -68,7 +78,7 @@ body {
 
 .index {
   background-color: var(--main-bg-color);
-  
+
   height: 287px;
 }
 
@@ -78,25 +88,89 @@ body {
   text-align: center;
 
   margin: 0;
-  padding: 39px 58px 0 42px;
+  padding: 39px 58px 15px 42px;
 }
 
 .index__text {
-    margin: 0;
-    padding: 0 26px 27px 34px;
-    text-align: center;
+  margin: 0;
+  padding: 0 26px 27px 34px;
+  text-align: center;
+  font-weight: 300;
+  color: var(--grey-bg-color);
 }
 
 .btn {
- width: calc(100% - 82px - 75px);
- height: 50px;
+  width: calc(100% - 82px - 75px);
+  height: 50px;
 
- margin: 0 75px 57px 82px;
- 
- border-radius: 25px;
- border: none;
+  margin: 0 75px 57px 82px;
 
- background: linear-gradient(#ff79da, #9356dc);
- color: white;
- font-size: 16px ;
+  border-radius: 25px;
+  border: none;
+
+  background: linear-gradient(#ff79da, #9356dc);
+  color: white;
+  font-size: 16px;
+}
+
+.section__fonctionnement {
+  background-color: var(--white-bg-color);
+}
+
+.section__title {
+  padding: 48px 80px 26px 20px;
+  margin: 0;
+}
+
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 0 24.93px 0;
+  width: 100%;
+}
+.number {
+  background-color: var(--buttons-bg-secondcolor);
+  border-radius: 50px;
+  width: 24px;
+  height: 24px;
+  font-size: 14.18px;
+  color: var(--white-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20px;
+  margin: 24.93px 0 0 0;
+}
+
+.number__icontxt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 20px 0 32.51px;
+  width: 322px;
+  height: 72px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--main-bg-color);
+  box-shadow: 0px 4px 15px 0px #00000026;
+}
+
+.number__icon {
+  padding: 0 27px 0 33.47px;
+}
+
+.number__txt {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.section__restaurants {
+  background-color: var(--main-bg-color);
 }
