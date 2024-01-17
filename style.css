@@ -13,6 +13,11 @@
   --green-bg-color: #99e2d0;
   --darkgrey-bg-color: #353535;
   --index-color-icons: #7e7e7e;
+  --green-font-color: #008766;
+}
+
+a {
+  text-decoration: none;
 }
 
 .fa-solid--darkgrey {
@@ -24,13 +29,13 @@
 }
 
 .fa-solid--purple {
-color: var(--buttons-bg-secondcolor);
+  color: var(--buttons-bg-secondcolor);
 }
 
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  height: 100%;
 }
 
 /*** Header ***/
@@ -125,6 +130,7 @@ body {
 .fonctionnement {
   display: flex;
   flex-direction: column;
+  margin: 0 0 43.07px 0;
 }
 
 .numbers {
@@ -173,4 +179,97 @@ body {
 
 .section__restaurants {
   background-color: var(--main-bg-color);
+  padding: 0 0 66px 0;
+}
+
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.restaurants__cards {
+  border-radius: 15px;
+  margin: 0 17px 18px 18px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: var(--white-bg-color);
+}
+
+.card__figure {
+  width: 100%;
+  height: 231px;
+  overflow: hidden;
+}
+
+.card__picture {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card__content {
+  height: 77px;
+  text-decoration: none;
+  padding: 16px 0 12px 13px;
+}
+
+.card__title {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.card__txt {
+  margin: 0;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.new-stickers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: var(--green-bg-color);
+  color: var(--green-font-color);
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  height: 29px;
+  width: 80px;
+  right: 30px;
+  margin: 0;
+  margin: 13px 0 0 0;
+}
+
+footer {
+  background-color: var(--darkgrey-bg-color);
+  padding: 22px 25px;
+  color: white;
+}
+
+.footer__logo {
+  font-family: "Shrikhand", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin: 0 0 16px 0;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+  margin: 0 0 7px 0;
+  font-size: 16px;
+}
+
+.utensils__icon {
+  margin: 0 11px 0 0;
 }
