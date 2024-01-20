@@ -1,0 +1,10 @@
+/*
+Pour développement : 
+sass --watch path/fichier_source.scss path/fichier_cible.css
+
+sass --watch ./assets/scss/pages/home.scss ./assets/css/home.css
+sass --watch ./assets/scss/pages/restaurant.scss ./assets/css/restaurant.css
+
+Pour production : 
+sass --watch path/fichier_source.scss path/fichier_cible.css --style compressed
+*/

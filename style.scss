@@ -1,19 +1,23 @@
 /*** General ***/
+$main-color: #ffffff;
+$main-bg-color: #f6f6f6;
+$loc-bg-color: #eaeaea;
+$buttons-bg-maincolor: #ff79da; 
+$buttons-bg-secondcolor: #9356dc;
+$selection-bg-color: #99e2d0;
+$footer-bg-color: #353535;
+
+
 * {
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+
   }
   
-  :root {
-    $main-color: #ffffff;
-    $main-bg-color: #f6f6f6;
-    $loc-bg-color: #eaeaea;
-    $buttons-bg-maincolor: #ff79da;
-    $buttons-bg-secondcolor: #9356dc;
-    $selection-bg-color: #99e2d0;
-    $footer-bg-color: #353535;
+  html, body {
+    
   }
-  
+
   .fa-solid--grey {
     color: $footer-bg-color;
   }
