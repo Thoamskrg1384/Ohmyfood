@@ -1,15 +1,21 @@
+
 * {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
 
-}
-ul {
+  a {
+    text-decoration: none;
+  }
 
-}
-a {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 
-}
-button {
-    
-}
-html, body {
-
-}
+  footer {
+    background-color: $darkgrey-bg-color;
+    padding: 22px 25px;
+    color: white;
+  }

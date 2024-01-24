@@ -1,0 +1,31 @@
+  .footer__logo {
+    font-family: "Shrikhand", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin: 0 0 16px 0;
+  }
+  
+  .footer__content {
+    margin: 16px 0 0 0;
+  }
+  
+  .footer__link {
+    color: white;
+    text-decoration: none;
+    margin: 0 0 7px 0;
+    font-size: 16px;
+  }
+  
+  .footer__icon {
+    margin: 0 11px 0 0;
+    height: 13px;
+    width: 11px;
+    font-size: 16px;
+
+    &--partners {
+      margin: 0 5px 0 0;
+    }
+  }
+  

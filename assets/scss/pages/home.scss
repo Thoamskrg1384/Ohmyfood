@@ -3,10 +3,45 @@
 
 @import '../base/base';
 
+@import '../layouts/header';
+
+@import '../components/location';
+
+.index {
+    background-color: $main-bg-color;
+  
+    height: 287px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .index__title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  
+    margin: 0;
+    padding: 39px 58px 15px 42px;
+  }
+  
+  .index__text {
+    margin: 0;
+    padding: 0 26px 27px 34px;
+    text-align: center;
+    font-weight: 300;
+    color: $darkgrey-bg-color;
+  }
+
 @import '../components/button';
+
+@import '../components/section-fonctionnement';
+
+@import '../components/_section-restaurant';
+
 @import '../components/card';
 
-@import '../layouts/header';
 @import '../layouts/footer';
 
 

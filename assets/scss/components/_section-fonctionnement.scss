@@ -1,0 +1,73 @@
+.section__fonctionnement {
+    background-color: $white-bg-color;
+  }
+  
+  .section__title {
+    padding: 48px 80px 26px 20px;
+    margin: 0;
+  }
+  
+  .fonctionnement {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 43.07px 0;
+  }
+
+  .icon__color {
+    color: $darkgrey-bg-color;
+    
+    &--grey {
+        color: $index-color-icons;
+      }
+
+    &--purple {
+        color: $buttons-bg-secondcolor;
+      }
+
+  }
+  
+  .numbers {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 24.93px 0;
+    width: 100%;
+  }
+  .number {
+    background-color: $buttons-bg-secondcolor;
+    border-radius: 50px;
+    width: 24px;
+    height: 24px;
+    font-size: 14.18px;
+    color: $white-bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    margin: 24.93px 0 0 0;
+  }
+  
+  .number__icontxt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 20px 0 0;
+    width: 322px;
+    height: 72px;
+    border: none;
+    border-radius: 20px;
+    background-color: $main-bg-color;
+    box-shadow: 0px 4px 15px 0px #00000026;
+  }
+  
+  .number__icon {
+    padding: 0 27px 0 33.47px;
+  }
+  
+  .number__txt {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  

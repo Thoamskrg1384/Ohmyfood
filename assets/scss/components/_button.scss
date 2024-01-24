@@ -1,0 +1,40 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 218px;
+  height: 50px;
+
+  border-radius: 25px;
+  border: none;
+
+  background: linear-gradient($buttons-bg-maincolor, $buttons-bg-secondcolor);
+  color: white;
+  font-size: 16px;
+
+  box-shadow: 0px 4px 10px 0px #00000040;
+
+  &--command {
+    width: 186px;
+    height: 50px;
+  }
+
+}
+  
+  .btn:hover {
+    opacity: 75%;
+
+    &--command:hover {
+      opacity: 75%;
+    }
+  }
+
+  .bouton-commander {
+    padding: 40px 0 40px 0;
+    margin: 0;
+    background-color: $main-bg-color;
+    display: flex;
+    justify-content: center;
+  }
+  
