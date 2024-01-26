@@ -1,20 +1,25 @@
-.menu__card {
+
+  .menu__card__group {
+    margin: 0 0 40px 0;
+  }
+
+  .menu__card {
     border-radius: 15px;
     background-color: $white-bg-color;
     padding: 15px;
     height: 72px;
     margin: 12px 0 0 0;
-    max-width: 634px;
   }
   
   .menu__card__title {
     margin: 0;
+    font-weight: 500;
+
   }
   
   .menu__card__txtprice {
     margin: 5px 0 0 0;
     font-size: 15.04px;
-    font-weight: 300;
     height: 19px;
     display: flex;
     justify-content: space-between;

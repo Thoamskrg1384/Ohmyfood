@@ -14,3 +14,8 @@
   .location__icon {
     margin: 0 17px 0 0;
   }
+
+  .location__input {
+    border: none;
+    background-color: $loc-bg-color;
+  }
