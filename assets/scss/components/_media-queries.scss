@@ -66,18 +66,24 @@
   .mentions {
     margin: 0 20px 0 40px;
   }
+
+  .restaurants__title {
+    display: flex;
+    justify-content: center;
+  }
+
   .restaurant__name {
-    margin: 0 192px 0 193px;
     text-align: center;
   }
+  
   .restaurant-section {
     margin: 0 192px 0 193px;
     width: calc(100% - 192.5px - 192.5px);
     display: flex;
   }
 
-  .main__restaurants {
-    background-color: $white-bg-color;
+  main {
+    background-color: $main-bg-color;
   }
 
   .bouton-commander {

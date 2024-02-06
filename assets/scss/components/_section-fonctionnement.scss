@@ -35,7 +35,7 @@
   }
   .number {
     background-color: $buttons-bg-secondcolor;
-    border-radius: 50px;
+    border-radius: 25px;
     width: 24px;
     height: 24px;
     font-size: 14.18px;
@@ -45,7 +45,7 @@
     justify-content: center;
     position: relative;
     left: 10px;
-    margin: 24.93px 0 0 0;
+    top: 10px;
   }
   
   .number__icontxt {
@@ -63,6 +63,7 @@
   
   .number__icon {
     padding: 0 27px 0 33.47px;
+    font-size: 18px;
   }
   
   .number__txt {

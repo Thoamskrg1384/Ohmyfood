@@ -29,89 +29,225 @@
                src="/images-textes/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
                alt="Image montrant un gros plan d'une assiette rectangulaire incurvée joliement dressés avec du poisson et des légumes dans une sauce ">
          </div>
-         <div class="header-restaurant__title">
-            <h1 class="restaurant__name">Le délice des sens</h1>
-         </div>
       </header>
       <section class="restaurant-section">
+         <div class="restaurants__title">
+            <h1 class="restaurant__name">Le délice des sens</h1>
+            <span class="favorite__animation__title">
+               <svg id='heart' height="0" width="0">
+                   <defs>
+                       <clipPath id="svgPath">
+                           <path
+                               d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z" />
+                       </clipPath>
+                   </defs>
+               </svg>
+   
+               <div class="heart-container">
+                   <svg width="40" height="40" viewBox="0 0 40 40" class='heart-stroke'>
+                       <path
+                           d="M20,35.07,4.55,19.62a8.5,8.5,0,0,1-.12-12l.12-.12a8.72,8.72,0,0,1,12.14,0L20,10.77l3.3-3.3A8.09,8.09,0,0,1,29.13,4.9a8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.12,12l-.12.12ZM10.64,7.13A6.44,6.44,0,0,0,6.07,18.19L20,32.06,33.94,18.12A6.44,6.44,0,0,0,34,9l0,0a6.44,6.44,0,0,0-4.77-1.85A6,6,0,0,0,24.83,9L20,13.78,15.21,9A6.44,6.44,0,0,0,10.64,7.13Z" />
+                   </svg>
+   
+                   <a href='#' class='heart-clip'></a>
+               </div>
+           </span>
+         </div>
          <div>
             <h2 class="restaurant-section__title">ENTRÉES</h2>
          </div>
          <div class="menu__card__group">
             <div class="menu__card">
-               <h3 class="menu__card__title">Tartare de thon</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">Assaisonné au yuzu</p>
-                  <p class="menu__card__price">25€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Tartare de thon</h3>
+                    <p class="menu__card__subtitle">Assaisonné au yuzu</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>25€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input"></label>
             </div>
             <div class="menu__card">
-               <h3 class="menu__card__title">Bouchée de homard croustillant</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">Et sa farandole de petits légumes</p>
-                  <p class="menu__card__price">35€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input2" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Bouchée de homard croustillant</h3>
+                    <p class="menu__card__subtitle">Et sa farandole de petits légumes</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>35€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input2"></label>
             </div>
             <div class="menu__card">
-               <h3 class="menu__card__title">Velouté de cèpes</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">Aux truffes</p>
-                  <p class="menu__card__price">20€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input3" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Velouté de cèpes</h3>
+                    <p class="menu__card__subtitle">Aux truffes</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>20€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input3"></label>
             </div>
-         </div>
-         <div>
+        </div>
+        <div>
             <h2 class="restaurant-section__title">PLATS</h2>
-         </div>
-         <div class="menu__card__group">
+        </div>
+        <div class="menu__card__group">
             <div class="menu__card">
-               <h3 class="menu__card__title">Poulet rôti aux herbes de Provence</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">Et sa crème de truffe</p>
-                  <p class="menu__card__price">40€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input4" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Poulet rôti aux herbes de Provence</h3>
+                    <p class="menu__card__subtitle">Et sa crème de truffe</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>40€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input4"></label>
             </div>
             <div class="menu__card">
-               <h3 class="menu__card__title">Langouste rôtie</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">Et ses légumes de saison</p>
-                  <p class="menu__card__price">35€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input5" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Langouste rôtie</h3>
+                    <p class="menu__card__subtitle">Et ses légumes de saison</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>35€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input5"></label>
             </div>
             <div class="menu__card">
-               <h3 class="menu__card__title">Côte de bœuf Angus</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">Et sa purée de panais</p>
-                  <p class="menu__card__price">44€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input6" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Côte de bœuf Angus</h3>
+                    <p class="menu__card__subtitle">Et sa purée de panais</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>44€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input6"></label>
             </div>
-         </div>
-         <div>
+        </div>
+        <div>
             <h2 class="restaurant-section__title">DESSERTS</h2>
-         </div>
-         <div class="menu__card__group">
+        </div>
+        <div class="menu__card__group">
             <div class="menu__card">
-               <h3 class="menu__card__title">Farandole de desserts</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">Du chef</p>
-                  <p class="menu__card__price">18€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input7" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Farandole de desserts</h3>
+                    <p class="menu__card__subtitle">Du chef</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>18€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input7"></label>
             </div>
             <div class="menu__card">
-               <h3 class="menu__card__title">Crème brulée</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">Revisitée</p>
-                  <p class="menu__card__price">22€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input8" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Crème brulée</h3>
+                    <p class="menu__card__subtitle">Revisitée</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>22€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input8"></label>
             </div>
             <div class="menu__card">
-               <h3 class="menu__card__title">Tiramisu</h3>
-               <div class="menu__card__txtprice">
-                  <p class="menu__card__txt">À la noisette</p>
-                  <p class="menu__card__price">23€</p>
-               </div>
+                <input type="checkbox" class="menu__card__input" id="input9" />
+                 <div class="menu__card__content">
+                  <div class="menu__card__column menu__card__column--left"> 
+                    <h3 class="menu__card__title">Tiramisu</h3>
+                    <p class="menu__card__subtitle">À la noisette</p>
+                  </div>
+                  <div class="menu__card__column menu__card__column--right">
+                    <div class="menu__card__price">
+                      <span>23€</span>
+                    </div>
+                    <div class="menu__card__icon">
+                      <span>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <label class="menu__card__label" for="input9"></label>
             </div>
-         </div>
+        </div>
       </section>
       <div class="bouton-commander">
          <a href="#" class="btn--command">Commander</a>
