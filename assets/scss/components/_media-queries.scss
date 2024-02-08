@@ -17,13 +17,16 @@
   .fonctionnement {
     margin: 0;
     flex-wrap: nowrap;
+    padding: 0;
   }
   .numbers {
     margin: 0;
   }
+  .number__icontxt {
+    margin: 0 36.51px 0 0;
+  }
   .section__restaurants {
-    padding: 0 180px;
-    margin: 30px 0;
+    padding: 30px 180px 30px 180px;
   }
   .restaurants {
     display: flex;
@@ -44,6 +47,7 @@
     flex-direction: row-reverse;
     align-items: flex-end;
   }
+
   .footer__content {
     display: flex;
     flex-direction: row;
@@ -82,19 +86,40 @@
     display: flex;
   }
 
-  main {
-    background-color: $main-bg-color;
-  }
-
   .bouton-commander {
     margin: 0 192.5px 0 192.5px;
   }
 
   .restaurant-section__title {
-    margin: 0 0 0 210.5px;
+    &--entrees {
+      margin: 0 0 0 210.5px;
+    }
+    &--plats {
+      margin: 0 0 0 210.5px;
+    }
+    &--desserts {
+      margin: 0 0 0 210.5px;
+    }
   }
 
   .menu__card__group {
-    margin: 0 210.5px 40px 210.5px;
+    &--entrees {
+      margin: 0 210.5px 40px 210.5px;
+    }
+    &--plats {
+      margin: 0 210.5px 40px 210.5px;
+    }
+    &--desserts {
+      margin: 0 210.5px 40px 210.5px;
+      
+    } 
   }
+
+    .footer__restaurant {
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
+
 }

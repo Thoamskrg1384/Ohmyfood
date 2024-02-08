@@ -1,0 +1,173 @@
+@keyframes progress {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header__return-logo {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+}
+
+.location {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3.5s;
+}
+
+.index {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+}
+
+.section__fonctionnement {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4.5s;
+}
+
+.section__restaurants {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+}
+
+footer {
+  opacity: 0;
+  animation-name: progress;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-delay: 5.5s;
+}
+
+.header__picture {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3.5s;
+}
+
+.restaurants__title {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+}
+
+.restaurant-section {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+}
+
+.restaurant-section__title {
+    &--entrees {
+      opacity: 0;
+      animation-name: progress;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-timing-function: ease-in-out;
+      animation-delay: 4.5s;
+    }
+
+    &--plats {
+      opacity: 0;
+      animation-name: progress;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-timing-function: ease-in-out;
+      animation-delay: 5.5s;
+    }
+
+    &--desserts {
+      opacity: 0;
+      animation-name: progress;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-timing-function: ease-in-out;
+      animation-delay: 6.5s;
+    }
+  }
+
+.menu__card__group {
+    &--entrees{
+      opacity: 0;
+      animation-name: progress;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-timing-function: ease-in-out;
+      animation-delay: 5s;
+    }
+    &--plats {
+      opacity: 0;
+      animation-name: progress;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-timing-function: ease-in-out;
+      animation-delay: 6s;
+    }
+    &--desserts {
+      opacity: 0;
+      animation-name: progress;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-timing-function: ease-in-out;
+      animation-delay: 7s;
+    }
+  }
+
+.bouton-commander {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+}
+
+.btn--command {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 7.5s;
+}
+
+.footer__restaurant {
+    opacity: 0;
+    animation-name: progress;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 8s;
+  }
+

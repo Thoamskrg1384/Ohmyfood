@@ -1,6 +1,14 @@
 
   .menu__card__group {
-    margin: 0 0 40px 0;
+    &--entrees{
+      margin: 0 0 40px 0;
+    }
+    &--plats {
+      margin: 0 0 40px 0;
+    }
+    &--desserts {
+      margin: 0 0 40px 0;
+    }
   }
 
   .menu__card {

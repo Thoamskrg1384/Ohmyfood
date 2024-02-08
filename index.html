@@ -10,12 +10,13 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap"
       rel="stylesheet">
    <script src="https://kit.fontawesome.com/da3c07f169.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/home.css">
 
 
 </head>
 
 <body>
+   <span class="loader"></span>
    <header class="header__index">
       <div class="header__return-logo">
          <a class="logo" href="/index.html">ohmyfood</a>
@@ -95,12 +96,17 @@
                         </defs>
                      </svg>
 
-                     <div class="heart-container">
-                        <svg width="40" height="40" viewBox="0 0 40 40" class='heart-stroke'>
-                           <path
-                              d="M20,35.07,4.55,19.62a8.5,8.5,0,0,1-.12-12l.12-.12a8.72,8.72,0,0,1,12.14,0L20,10.77l3.3-3.3A8.09,8.09,0,0,1,29.13,4.9a8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.12,12l-.12.12ZM10.64,7.13A6.44,6.44,0,0,0,6.07,18.19L20,32.06,33.94,18.12A6.44,6.44,0,0,0,34,9l0,0a6.44,6.44,0,0,0-4.77-1.85A6,6,0,0,0,24.83,9L20,13.78,15.21,9A6.44,6.44,0,0,0,10.64,7.13Z" />
-                        </svg>
+                     <div class="block__heart">
+                        <input type="checkbox" id="inputHeart" class="input__heart">
+                        <label for="inputHeart" class="heart__label"></label>
 
+                        <div class="heart-container">
+                           <svg width="40" height="40" viewBox="0 0 40 40" class='heart-stroke'>
+                              <path
+                                 d="M20,35.07,4.55,19.62a8.5,8.5,0,0,1-.12-12l.12-.12a8.72,8.72,0,0,1,12.14,0L20,10.77l3.3-3.3A8.09,8.09,0,0,1,29.13,4.9a8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.12,12l-.12.12ZM10.64,7.13A6.44,6.44,0,0,0,6.07,18.19L20,32.06,33.94,18.12A6.44,6.44,0,0,0,34,9l0,0a6.44,6.44,0,0,0-4.77-1.85A6,6,0,0,0,24.83,9L20,13.78,15.21,9A6.44,6.44,0,0,0,10.64,7.13Z" />
+                           </svg>
+                           <div class='heart-clip'></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -119,23 +125,25 @@
                      <p class="card__content--txt">Charone</p>
                   </a>
                   <div class="favorite__animation">
-                     <div class="favorite__animation">
-                        <svg id='heart' height="0" width="0">
-                           <defs>
-                              <clipPath id="svgPath">
-                                 <path
-                                    d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z" />
-                              </clipPath>
-                           </defs>
-                        </svg>
+                     <svg id='heart' height="0" width="0">
+                        <defs>
+                           <clipPath id="svgPath">
+                              <path
+                                 d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+
+                     <div class="block__heart">
+                        <input type="checkbox" id="inputHeart" class="input__heart">
+                        <label for="inputHeart" class="heart__label"></label>
 
                         <div class="heart-container">
                            <svg width="40" height="40" viewBox="0 0 40 40" class='heart-stroke'>
                               <path
                                  d="M20,35.07,4.55,19.62a8.5,8.5,0,0,1-.12-12l.12-.12a8.72,8.72,0,0,1,12.14,0L20,10.77l3.3-3.3A8.09,8.09,0,0,1,29.13,4.9a8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.12,12l-.12.12ZM10.64,7.13A6.44,6.44,0,0,0,6.07,18.19L20,32.06,33.94,18.12A6.44,6.44,0,0,0,34,9l0,0a6.44,6.44,0,0,0-4.77-1.85A6,6,0,0,0,24.83,9L20,13.78,15.21,9A6.44,6.44,0,0,0,10.64,7.13Z" />
                            </svg>
-
-                           <a href='#' class='heart-clip'></a>
+                           <div class='heart-clip'></div>
                         </div>
                      </div>
                   </div>
@@ -155,15 +163,18 @@
                      <p class="card__content--txt">Cité rouge</p>
                   </a>
                   <div class="favorite__animation">
-                     <div class="favorite__animation">
-                        <svg id='heart' height="0" width="0">
-                           <defs>
-                              <clipPath id="svgPath">
-                                 <path
-                                    d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z" />
-                              </clipPath>
-                           </defs>
-                        </svg>
+                     <svg id='heart' height="0" width="0">
+                        <defs>
+                           <clipPath id="svgPath">
+                              <path
+                                 d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+
+                     <div class="block__heart">
+                        <input type="checkbox" id="inputHeart" class="input__heart">
+                        <label for="inputHeart" class="heart__label"></label>
 
                         <div class="heart-container">
                            <svg width="40" height="40" viewBox="0 0 40 40" class='heart-stroke'>
@@ -191,15 +202,18 @@
                      <p class="card__content--txt">Folie-Méricourt</p>
                   </a>
                   <div class="favorite__animation">
-                     <div class="favorite__animation">
-                        <svg id='heart' height="0" width="0">
-                           <defs>
-                              <clipPath id="svgPath">
-                                 <path
-                                    d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z" />
-                              </clipPath>
-                           </defs>
-                        </svg>
+                     <svg id='heart' height="0" width="0">
+                        <defs>
+                           <clipPath id="svgPath">
+                              <path
+                                 d="M20,35.09,4.55,19.64a8.5,8.5,0,0,1-.13-12l.13-.13a8.72,8.72,0,0,1,12.14,0L20,10.79l3.3-3.3a8.09,8.09,0,0,1,5.83-2.58,8.89,8.89,0,0,1,6.31,2.58,8.5,8.5,0,0,1,.13,12l-.13.13Z" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+
+                     <div class="block__heart">
+                        <input type="checkbox" id="inputHeart" class="input__heart">
+                        <label for="inputHeart" class="heart__label"></label>
 
                         <div class="heart-container">
                            <svg width="40" height="40" viewBox="0 0 40 40" class='heart-stroke'>
@@ -235,11 +249,10 @@
             <a class="footer__link" href="">Mentions légales</a>
          </li>
          <li>
-            <a class="footer__link" href="">Contact</a>
+            <a class="footer__link" href="mailto:email@sample.com">Contact</a>
          </li>
       </ul>
    </footer>
-   <span class="loader"></span>
 </body>
 
 </html>
