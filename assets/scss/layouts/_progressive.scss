@@ -7,6 +7,7 @@
   }
 }
 
+// Affichage progressif de la page d'accueil
 .header__return-logo {
     opacity: 0;
     animation-name: progress;
@@ -60,7 +61,7 @@ footer {
   animation-timing-function: ease-in-out;
   animation-delay: 5.5s;
 }
-
+// Affichage progressif des pages des restaurants
 .header__picture {
     opacity: 0;
     animation-name: progress;

@@ -38,7 +38,7 @@
      height: 40px;
    }
  
-   /* Partie animation avec la form de la div = clipPath = Coeur */
+   /* Partie animation avec la forme de la div = clipPath = Coeur */
    .heart-clip {
      display: block;
      width: 100%;
@@ -73,7 +73,7 @@
      fill: #000;
    }
  
-   /* On fais la même animation au click que au survol */
+   /* On fais la même animation au click qu'au survol */
    .heart__label:hover ~ .heart-container .heart-clip::before,
    input:checked ~ .heart-container .heart-clip::before {
      transform: scale(1);

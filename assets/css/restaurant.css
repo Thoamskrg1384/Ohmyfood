@@ -1,16 +1,16 @@
 @charset "UTF-8";
 .loader {
   color: #9356dc;
-  font-size: 150px;
+  font-size: 10vw;
   text-indent: -9999em;
   overflow: hidden;
-  width: 1em;
-  height: 1em;
+  width: 10vw;
+  height: 10vw;
   border-radius: 50%;
-  position: absolute;
-  left: 45%;
+  position: fixed;
+  left: 50%;
   top: 50%;
-  transform: translateZ(0);
+  transform: translate(-50%, -50%);
   animation: mltShdSpin 1.7s ease-in-out, round 1.7s ease-in-out;
   animation-iteration-count: 2;
 }
@@ -247,10 +247,6 @@ footer li {
   opacity: 75%;
 }
 
-.btn--command:hover {
-  opacity: 75%;
-}
-
 .bouton-commander {
   padding: 0 0 40px 0;
   margin: 0;
@@ -274,9 +270,9 @@ footer li {
 .block__heart {
   position: relative;
   /* Container du coeur */
-  /* Partie animation avec la form de la div = clipPath = Coeur */
+  /* Partie animation avec la forme de la div = clipPath = Coeur */
   /* Coeur initial */
-  /* On fais la même animation au click que au survol */
+  /* On fais la même animation au click qu'au survol */
 }
 .block__heart .input__heart {
   display: none;
@@ -485,7 +481,7 @@ footer li {
   align-items: flex-start;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1170px) {
   .header__return-logo {
     height: 96px;
   }
@@ -594,6 +590,11 @@ footer li {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
+  }
+}
+@media (max-width: 365px) {
+  .restaurant__name {
+    font-size: 22px;
   }
 }
 @keyframes progress {

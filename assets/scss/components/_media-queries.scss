@@ -1,4 +1,5 @@
-@media (min-width: 1440px) {
+// Responsive Au dessus de 1024px
+@media (min-width: 1170px) {
   .header__return-logo {
     height: 96px;
   }
@@ -120,6 +121,15 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
+  }
+
+}
+
+// Responsive en dessous de 365px
+@media (max-width: 365px) {
+
+.restaurant__name {
+    font-size: 22px;
   }
 
 }
